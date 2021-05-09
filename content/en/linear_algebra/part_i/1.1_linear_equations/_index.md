@@ -1,6 +1,7 @@
 ---
-title: "1.1 Linear System of Equations"
-linkTitle: "1.1 Linear Equations"
+title: "Linear System of Equations"
+linkTitle: "Linear Equations"
+sectionNumber: 1.1
 weight: 1
 description: >
   Elementary definitions and results in linear algebra.

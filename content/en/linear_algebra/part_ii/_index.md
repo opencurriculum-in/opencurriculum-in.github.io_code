@@ -1,7 +1,8 @@
 ---
-title: "Part II: Eigenvalues, Inner Products & Decompositions"
-linkTitle: "II Eigenvalues, Inner Products & Decompositions"
-weight: 1
+title: "Eigenvalues, Inner Products & Decompositions"
+linkTitle: "Eigenvalues, Inner Products & Decompositions"
+sectionNumber: 2
+weight: 2
 description: >
   Decompositions for Vector Spaces and Transforms
 ---

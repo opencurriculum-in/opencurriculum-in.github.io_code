@@ -1,7 +1,8 @@
 ---
-title: "Linear Transformations"
-linkTitle: "Linear Transformations"
-weight: 3
+title: "Abstract Vector Spaces"
+linkTitle: "Vector Spaces"
+sectionNumber: 1.2
+weight: 2
 description: >
   Elementary definitions and results in linear algebra.
 ---

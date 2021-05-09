@@ -62,3 +62,22 @@ footer {
 
 @import "rtl/main";
 @import "styles_project";
+
+
+.sec-num-head, .sec-num-sidebar {
+    float: right;
+    color: rgb(255, 0, 255);
+    font-size: 2em;
+    padding-right: 20px;
+}
+
+.sec-num-sidebar {
+    font-size: 1em;
+    font-weight: normal;
+    padding-right: 0px;
+}
+
+.td-sidebar-nav {
+    font-size: 0.9em;
+}
+

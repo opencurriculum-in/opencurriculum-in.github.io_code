@@ -1,7 +1,8 @@
 ---
-title: "Rank, Inverse, LU Deomposition"
-linkTitle: "Rank, Inverse, LU Deomposition"
-weight: 4
+title: "Determinants"
+linkTitle: "Determinants"
+weight: 5
+sectionNumber: 1.5
 description: >
   Elementary definitions and results in linear algebra.
 ---

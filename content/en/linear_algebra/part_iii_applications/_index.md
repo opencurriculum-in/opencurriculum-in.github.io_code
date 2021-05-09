@@ -1,7 +1,8 @@
 ---
-title: "Part III: Applications"
-linkTitle: "III Applications"
-weight: 1
+title: "Applications"
+linkTitle: "Applications"
+weight: 3
+sectionNumber: 3
 description: >
   Advanced Applications of Linear Algebra with Code Examples.
 ---
