@@ -19,5 +19,5 @@ menu:
 {{% /pageinfo %}}
 
 
-The project was created by [Girish Varma](https://girishvarma.in), a faculty at [IIIT Hyderabad](https://iiit.ac.in/), as a means of continously improving his teaching material and curating resources from the web. While creating formatted notes for each topic is ideal, it is not necessarly meant to be like a textbook, but rather a curration of most relevant materials from the web, which will help the students understand each topic well. 
+The project was created by [Girish Varma](https://girishvarma.in), a faculty at [IIIT Hyderabad](https://iiit.ac.in/), as a means of continously improving his teaching material and curating resources from the web. While creating formatted notes for each topic is ideal, it is not necessarly meant to be like a textbook, but rather a curration of most relevant materials from the web, which will help the students understand each topic well. Currently it hosts videos, notes, problems and links to other resources on the web on a per lecture basis. It also allows anyone to make changes to the content easily in the browswer itself.
 
