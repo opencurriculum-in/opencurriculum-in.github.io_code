@@ -1,0 +1,10 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+{{ $color := .Get "color" | default "primary" }}
+<div class="alert alert-warning theorem" role="alert">
+<span class="theorem-heading">Theorem {{ with .Get "num" }}{{ . | safeHTML }}{{ end }}</span> {{ with .Get "title" }}<h4>{{ . | safeHTML }}</h4>{{ end }}
+{{ if eq .Page.File.Ext "md" }}
+    {{ .Inner | markdownify }}
+{{ else }}
+    {{ .Inner | htmlUnescape | safeHTML }}
+{{ end }}
+</div>
