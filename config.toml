@@ -91,7 +91,7 @@ time_format_blog = "02.01.2006"
 section = ["HTML", "print"]
 
 [params]
-copyright = "CC-SA-BY"
+copyright = "CC-BY-NC-SA"
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
 
@@ -111,7 +111,7 @@ version = "0.0"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
-url_latest_version = "https://example.com"
+url_latest_version = "https://opencurriculum-in.github.io/"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/opencurriculum-in/opencurriculum-in.github.io_code"
