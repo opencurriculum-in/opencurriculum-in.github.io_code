@@ -1,20 +1,17 @@
 {{ $links := .Site.Params.links }}
 
 <section class="row td-box td-box--4 td-box--gradient td-box--height-auto linkbox">
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-<h2>Learn and Connect</h2>		
-<p>Using or want to use {{ .Site.Title }}? Find out more here:
-{{ with index $links "user"}}
-{{ template "community-links-list"  . }}
-{{ end }}
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+<h2>Editing Pages</h2>		
+  <p>Any of the course pages is editable on the web via links on the right sidebar. See the <a href="#format">Formats</a> section for some special syntax </p>
 </div>
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-<h2>Develop and Contribute</h2>
-<p>If you want to get more involved by contributing to {{ .Site.Title }}, join us here:
-{{ with index $links "developer"}}
-{{ template "community-links-list"  . }}
-{{ end }}
-<p>You can find out how to contribute to these docs in our <a href="/docs/contribution-guidelines/">Contribution Guidelines</a>.
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+  <h2>Adding & Translating Courses</h2>		
+    <p>For adding a new course or a new translation of an existing course, please file an issue in github.</p>
+  </div>
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+<h2>Develop Code</h2>
+<p>The system is based on <a href="#">Docsy</a> theme of the <a href="#">Hugo</a> static site generator. You can send pull requests to: <a href="https://github.com/opencurriculum-in/opencurriculum-in.github.io_code">https://github.com/opencurriculum-in/opencurriculum-in.github.io_code</a>.</p>.
 </div>
 </section>
 
