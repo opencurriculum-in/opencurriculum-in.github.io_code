@@ -13,25 +13,19 @@ jobs:
       # with:
       #   submodules: true
 
-
-    - name: Install Node.js 12.x
-      uses: actions/setup-node@v1
-      with:
-        node-version: 12.x
-
-    - name: Install docsy prerequisites
-      run: npm install -g postcss-cli autoprefixer
-
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.80.0'
+        hugo-version: '0.71.1'
         extended: true
 
     - name: Setup Node
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
+
+    - name: Install docsy prerequisites
+      run: npm install -g postcss-cli autoprefixer
 
     - name: Cache dependencies
       uses: actions/cache@v1
@@ -41,8 +35,8 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-node-
 
-    - name: Build
-      run: hugo --minify
+    - run: npm ci
+    - run: hugo --minify
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
