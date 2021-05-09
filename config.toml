@@ -125,7 +125,7 @@ github_project_repo = "https://github.com/opencurriculum-in/opencurriculum-in.gi
 
 # Uncomment this if you have a newer GitHub repo with "main" as the default branch,
 # or specify a new value if you want to reference another branch in your GitHub links
-# github_branch= "main"
+github_branch= "main"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
 gcs_engine_id = "d72aa9b2712488cc3"
@@ -159,8 +159,8 @@ footer_about_disable = false
 [params.ui.feedback]
 enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
-no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+yes = 'Glad to hear it! Please <a href="https://github.com/opencurriculum-in/opencurriculum-in.github.io_code/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/opencurriculum-in/opencurriculum-in.github.io_code/issues/new">tell us how we can improve</a>.'
 
 # Adds a reading time to the top of each doc.
 # If you want this feature, but occasionally need to remove the Reading time from a single page, 
