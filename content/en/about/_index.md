@@ -18,8 +18,6 @@ menu:
 
 {{% /pageinfo %}}
 
-<p>
-The project was initially created by <a href="https://girishvarma.in">Girish Varma</a>, a faculty at IIIT Hyderabad, as a means of continously improving his teaching material.
-</p>
 
+The project was created by [Girish Varma](https://girishvarma.in), a faculty at [IIIT Hyderabad](https://iiit.ac.in/), as a means of continously improving his teaching material and curating resources from the web. While creating formatted notes for each topic is ideal, it is not necessarly meant to be like a textbook, but rather a curration of most relevant materials from the web, which will help the students understand each topic well. 
 
