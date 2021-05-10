@@ -2,37 +2,45 @@
 title: "Eigenvalues and Eigenvectors"
 linkTitle: "Eigenvalues"
 weight: 1
-description: >
-  Elementary definitions and results in linear algebra.
+sectionNumber: 2.1
 ---
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+{{< youtube qWbABNXFsUo >}}  
+
+## [Handwritten Notes](https://girishvarma.in/teaching/linear-algebra-ii/notes/lec1.pdf)
 
 
-The Overview is where your users find out about your project. Depending on the size of your docset, you can have a separate overview page (like this one) or put your overview contents in the Documentation landing page (like in the Docsy User Guide). 
+## Notes
 
-Try answering these questions for your user in this page:
+### Function Spaces
+Consider the following set
+$$\mathcal F = \\{ f:\\{0,1\\}^n \rightarrow \mathbb R \\} $$
+That is the set of all functions with domain $\\{0,1\\}^n$ and range $\mathbb R$.
 
-## What is it?
+{{< qapane >}}
 
-Introduce your project, including what it does or lets you do, why you would use it, and its primary goal (and how it achieves it). This should be similar to your README description, though you can go into a little more detail here if you want.
+{{< que >}}
+1. Is it a vector space?  
+2. If so what is the field involved?      
+3. Can $\\{0,1\\}$ be a field?  
+{{< /que >}}
+{{< ans >}}
 
-## Why do I want it?
+Answering in reverse order:  
 
-Help your user know if your project will help them. Useful information can include: 
+- (3) Yes. $\\{0,1\\}$ forms a field where addition and multiplication is done modulo 2. 0 is the additive identity and 1 is the multplicative identity. Inverse of 1 is itself additively and multiplicatively.
+- (2) One could think of 2 choices. $\\{0,1\\}$ and $\mathbb R$.
+- (1) $\mathcal F$ forms a vector space over the field $\mathbb R$.
 
-* **What is it good for?**: What types of problems does your project solve? What are the benefits of using it?
+{{< /ans >}}
+{{< que >}}
+1. What is the dimension?
+2. How do you show the dimension of the vector space is equal to a number $d$?
+{{< /que >}}
+{{< ans >}}
+dsfds
+{{< /ans >}}
+{{< /qapane >}}
 
-* **What is it not good for?**: For example, point out situations that might intuitively seem suited for your project, but aren't for some reason. Also mention known limitations, scaling issues, or anything else that might let your users know if the project is not for them.
-
-* **What is it *not yet* good for?**: Highlight any useful features that are coming soon.
-
-## Where should I go next?
-
-Give your users next steps from the Overview. For example:
-
-* [Getting Started](/docs/getting-started/): Get started with $project
-* [Examples](/docs/examples/): Check out some example code!
-
+## Reading
+Section 2.9 in [WKN]
