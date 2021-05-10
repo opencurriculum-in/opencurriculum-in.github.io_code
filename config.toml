@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Linear Algebra through Questions"
+title = "OpenCurriculum"
 
 enableRobotsTXT = true
 
@@ -53,7 +53,7 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Open Curriculum"
+title = "Open Curriculum (alpha version)"
 description = ""
 languageName ="English"
 # Weight used for sorting.
