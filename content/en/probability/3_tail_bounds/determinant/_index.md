@@ -1,10 +1,9 @@
 ---
-title: "Eigenvalues, Inner Products & Decompositions"
-linkTitle: "Eigenvalues, Inner Products & Decompositions"
-sectionNumber: 2
-weight: 2
+title: "Determinants"
+linkTitle: "Determinants"
+weight: 5
 description: >
-  Decompositions for Vector Spaces and Transforms
+  Elementary definitions and results in linear algebra.
 ---
 
 {{% pageinfo %}}

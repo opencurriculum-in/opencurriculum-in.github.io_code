@@ -1,18 +1,19 @@
 ---
-title: "Eigenvalues and Eigenvectors"
-linkTitle: "Eigenvalues"
+title: "Linear Algebra & Random Walks"
+linkTitle: "Random Walks"
 weight: 1
 sectionNumber: 2.1
 ---
 
-{{< youtube qWbABNXFsUo >}}  
 
-## [Handwritten Notes](https://girishvarma.in/teaching/linear-algebra-ii/notes/lec1.pdf)
+## Function Spaces
 
 
-## Notes
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qWbABNXFsUo?start=33&end=200" frameborder="0" allowfullscreen></iframe>
 
-### Function Spaces
+<br/>
+<br/>
+
 Consider the following set
 $$\mathcal F = \\{ f:\\{0,1\\}^n \rightarrow \mathbb R \\} $$
 That is the set of all functions with domain $\\{0,1\\}^n$ and range $\mathbb R$.
@@ -42,5 +43,39 @@ dsfds
 {{< /ans >}}
 {{< /qapane >}}
 
+## Linear Transformations and Matrices
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qWbABNXFsUo?start=33&end=200" frameborder="0" allowfullscreen></iframe>
+
+<br/>
+<br/>
+
+
+## Random Walks 
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qWbABNXFsUo?start=36&end=65&version=3" frameborder="0" allowfullscreen></iframe>
+
+<br/>
+<br/>
+
+
+## Convergence & Eigenvectors
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qWbABNXFsUo?start=33&end=200" frameborder="0" allowfullscreen></iframe>
+
+<br/>
+<br/>
+
+
+## [Handwritten Notes](https://girishvarma.in/teaching/linear-algebra-ii/notes/lec1.pdf)
+
+
 ## Reading
 Section 2.9 in [WKN]
+
+
+
+

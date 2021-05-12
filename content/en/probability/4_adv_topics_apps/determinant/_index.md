@@ -1,10 +1,9 @@
 ---
-title: "Applications"
-linkTitle: "Applications"
-weight: 3
-sectionNumber: 3
+title: "Determinants"
+linkTitle: "Determinants"
+weight: 5
 description: >
-  Advanced Applications of Linear Algebra with Code Examples.
+  Elementary definitions and results in linear algebra.
 ---
 
 {{% pageinfo %}}

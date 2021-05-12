@@ -1,9 +1,8 @@
 ---
 title: "Norms & Inner Products"
 linkTitle: "Inner Product Spaces"
-weight: 2
-description: >
-  Elementary definitions and results in linear algebra.
+weight: 3
+sectionNumber: 3
 ---
 
 {{% pageinfo %}}

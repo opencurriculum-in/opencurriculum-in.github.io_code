@@ -12,6 +12,15 @@
 		{{ partial "feedback.html" .Site.Params.ui.feedback }}
 		<br />
 	{{ end }}
+
+<script src="https://utteranc.es/client.js"
+repo="opencurriculum-in/opencurriculum-in.github.io_code"
+issue-term="pathname"
+theme="github-light"
+crossorigin="anonymous"
+async>
+</script>
+
 	{{ if (.Site.DisqusShortname) }}
 		<br />
 		{{ partial "disqus-comment.html" . }}

@@ -1,9 +1,8 @@
 ---
-title: "Fourier Transform"
-linkTitle: "Fourier Transform"
+title: "Norms & Inner Products"
+linkTitle: "Inner Product Spaces"
 weight: 4
-description: >
-  Elementary definitions and results in linear algebra.
+sectionNumber: 2.4
 ---
 
 {{% pageinfo %}}

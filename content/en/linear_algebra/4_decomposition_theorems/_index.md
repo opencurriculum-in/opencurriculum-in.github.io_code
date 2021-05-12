@@ -1,7 +1,8 @@
 ---
 title: "Spectral & Singular Value Decompositions"
 linkTitle: "Spectral & SV Decompositions"
-weight: 3
+weight: 4
+sectionNumber: 4
 ---
 
 Spectral Decomposition as we described it, only applies for symmetric square matrices. Singular value decomposition can be thought of as a generalization to non symmetric and non square matrices.
